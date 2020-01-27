@@ -3,10 +3,6 @@ import './App.scss';
 import Todos from './component/Todos/todos';
 
 
-interface Props{
-  username:string,
-}
-
 class App extends React.Component{
   render(){
     return(
@@ -20,3 +16,5 @@ class App extends React.Component{
 
 
 export default App ;
+
+
